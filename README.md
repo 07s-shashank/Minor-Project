@@ -47,31 +47,6 @@ Drowsy driving is one of the leading causes of road accidents globally. Accordin
 
 ---
 
-## ▶️ How to Run
-
-1. Install required packages:
-
-   ```bash
-   pip install opencv-python keras numpy pygame
-   ```
-
-2. Ensure the following files are in the directory:
-
-   - `main.py`
-   - `models/cnncat2.h5`
-   - Haar cascade XML files (`haarcascade_frontalface_alt.xml`, etc.)
-   - `alarm.wav`
-
-3. Run the script:
-
-   ```bash
-   python main.py
-   ```
-
-4. Press `q` to exit the program.
-
----
-
 ## 🔔 Alert System
 
 - An alarm is triggered when both eyes remain closed for multiple consecutive frames (threshold score > 10).
